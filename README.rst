@@ -1,4 +1,4 @@
-PyGAS
+PyMach
 =====
 
 ``pymach`` is a python package that regroups tools to transform graphs into a
@@ -14,7 +14,7 @@ Clone the current repository and install with ``pip``::
 Bugs
 ----
 
-Please report any bugs that you find through the `pygas Github project
+Please report any bugs that you find through the `pymach Github project
 <https://github.com/r-hamon/pymach/issues>`_.
 
 You can also fork the repository and create a merge request.
@@ -22,7 +22,7 @@ You can also fork the repository and create a merge request.
 Copyright(c) 2018
 -----------------
 
-R. Hamon <firstletter_givenname><lastname>_AT_protonmail.com
+Ronan Hamon <firstletter_givenname><lastname>_AT_protonmail.com
 
 License
 -------
