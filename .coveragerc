@@ -1,0 +1,26 @@
+[run]
+branch = True
+source = pymach
+include = */pymach/*
+omit =
+    */setup.py
+    */__init__.py
+    */test_*
+
+
+[report]
+exclude_lines =
+    pragma: no cover
+    if self.debug:
+    if settings.DEBUG
+    raise AssertionError
+    raise NotImplementedError
+    if 0:
+    if __name__ == .__main__.:
+    if obj is None: return
+    if verbose > 0:
+    if self.verbose > 0:
+    if verbose > 1:
+    if self.verbose > 1:
+    pass
+    def __str__(self):
